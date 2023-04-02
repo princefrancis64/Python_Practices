@@ -6,7 +6,7 @@ def divide(a,b):
     logging.info("trying to divide %s and %s",a,b)
 
     try:
-        logging.info("francis")
+        logging.info("francis asdfasfa")
         div =a/b
         logging.info("we have completed division operation")
         logging.info("the result of code is %s",div)
