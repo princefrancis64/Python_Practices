@@ -1,0 +1,8 @@
+INFO root 2023-04-02 12:10:54,947 i am trying to read a file
+CRITICAL root 2023-04-02 12:10:54,948 this is a situation for us
+ERROR root 2023-04-02 12:10:54,948 [Errno 2] No such file or directory: 'prince.txt'
+ERROR root 2023-04-02 12:10:54,948 [Errno 2] No such file or directory: 'prince.txt'
+Traceback (most recent call last):
+  File "C:\Users\ais\PycharmProjects\Python_Practices\test2.py", line 6, in <module>
+    with open("prince.txt","r"):
+FileNotFoundError: [Errno 2] No such file or directory: 'prince.txt'

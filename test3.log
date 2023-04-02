@@ -1,0 +1,7 @@
+INFO root 2023-04-02 12:20:32,254 trying to divide 4 and 0 
+INFO root 2023-04-02 12:20:32,255 we are into a function 
+ERROR root 2023-04-02 12:20:32,255 division by zero 
+Traceback (most recent call last):
+  File "C:\Users\ais\PycharmProjects\Python_Practices\test3.py", line 10, in divide
+    div =a/b
+ZeroDivisionError: division by zero
