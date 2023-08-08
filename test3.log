@@ -1,7 +1,24 @@
-INFO root 2023-04-02 12:20:32,254 trying to divide 4 and 0 
-INFO root 2023-04-02 12:20:32,255 we are into a function 
-ERROR root 2023-04-02 12:20:32,255 division by zero 
+    INFO 2023-08-07 06:08:03,533 the number entered by user is 3 and 6
+INFO 2023-08-07 06:13:31,003 the number entered by user is 3 and 6
+INFO 2023-08-07 06:13:31,004 we are into function
+INFO 2023-08-07 06:13:31,004 we have completed a division operation
+INFO 2023-08-07 06:14:17,487 the number entered by user is 3 and 0
+INFO 2023-08-07 06:14:17,487 we are into function
+ERROR 2023-08-07 06:14:17,488 division by zero
 Traceback (most recent call last):
-  File "C:\Users\ais\PycharmProjects\Python_Practices\test3.py", line 10, in divide
-    div =a/b
+  File "C:\Users\Prince\PycharmProjects\logging\test3.py", line 8, in divide
+    div = a/b
+ZeroDivisionError: division by zero
+INFO root 2023-08-07 06:19:15,073 the number entered by user is 3 and 8
+INFO root 2023-08-07 06:19:15,074 we are into function
+INFO root 2023-08-07 06:19:15,074 we have completed a division operation
+INFO root 2023-08-07 06:19:15,074 the result of code is 0.375
+INFO root 2023-08-07 06:25:15,313 the number entered by user is 3 and 8
+INFO root 2023-08-07 06:25:15,314 we are into function
+INFO root 2023-08-07 06:25:15,314 we have completed a division operation
+INFO root 2023-08-07 06:25:15,314 the result of code is 0.37 5
+ERROR root 2023-08-07 06:29:12,578 division by zero
+Traceback (most recent call last):
+  File "C:\Users\Prince\PycharmProjects\logging\test3.py", line 8, in divide
+    div = a/b
 ZeroDivisionError: division by zero

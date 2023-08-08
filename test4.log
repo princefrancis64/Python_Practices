@@ -1,0 +1,18 @@
+INFO root 2023-08-07 06:37:13,535 i am trying to read a file
+CRITICAL root 2023-08-07 06:37:13,536 this is a situation for us
+ERROR root 2023-08-07 06:37:13,536 [Errno 2] No such file or directory: 'prince.txt'
+Traceback (most recent call last):
+  File "C:\Users\Prince\PycharmProjects\logging\test4.py", line 6, in <module>
+    with open("prince.txt","r"):
+FileNotFoundError: [Errno 2] No such file or directory: 'prince.txt'
+INFO root 2023-08-07 06:37:57,147 i am trying to read a file
+CRITICAL root 2023-08-07 06:37:57,147 this is a situation for us
+ERROR root 2023-08-07 06:37:57,147 [Errno 2] No such file or directory: 'prince.txt'
+INFO root 2023-08-07 06:47:37,963 i am trying to read a file
+CRITICAL root 2023-08-07 06:47:37,963 this is a situation for us
+ERROR root 2023-08-07 06:47:37,964 [Errno 2] No such file or directory: 'prince.txt'
+ERROR root 2023-08-07 06:47:37,964 [Errno 2] No such file or directory: 'prince.txt'
+Traceback (most recent call last):
+  File "C:\Users\Prince\PycharmProjects\logging\test4.py", line 6, in <module>
+    with open("prince.txt","r"):
+FileNotFoundError: [ERROR 2] No such file or directory: 'prince.txt'
